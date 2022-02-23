@@ -1,4 +1,4 @@
-# SendEmailSQLCLR
+# Send Email SQL CLR
 
 Send Email from a SQL CLR function
 
