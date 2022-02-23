@@ -27,3 +27,4 @@ CREATE PROCEDURE [dbo].[SendEmail]
 AS EXTERNAL NAME [SendEmailCLR].[SendEmailCLR].[SendEmail]
 ```
  
+The full binary string is redacted here to save space, but you can get this from https://github.com/infiniteloopltd/SendEmailSQLCLR/blob/master/bin/Debug/SendEmailCLR_4.publish.sql
