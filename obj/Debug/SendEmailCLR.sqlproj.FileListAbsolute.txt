@@ -1,0 +1,5 @@
+C:\Users\fiach\source\repos\SendEmailCLR\bin\Debug\SendEmailCLR.dacpac
+C:\Users\fiach\source\repos\SendEmailCLR\bin\Debug\SendEmailCLR.dll
+C:\Users\fiach\source\repos\SendEmailCLR\bin\Debug\SendEmailCLR.pdb
+C:\Users\fiach\source\repos\SendEmailCLR\obj\Debug\SendEmailCLR.dll
+C:\Users\fiach\source\repos\SendEmailCLR\obj\Debug\SendEmailCLR.pdb
