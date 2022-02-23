@@ -17,7 +17,13 @@ CREATE ASSEMBLY [SendEmailCLR]
     WITH PERMISSION_SET = UNSAFE;
   
 CREATE PROCEDURE [dbo].[SendEmail]
-@smtpServer NVARCHAR (MAX) NULL, @smtpUsername NVARCHAR (MAX) NULL, @smtpPassword NVARCHAR (MAX) NULL, @from NVARCHAR (MAX) NULL, @to NVARCHAR (MAX) NULL, @subject NVARCHAR (MAX) NULL, @body NVARCHAR (MAX) NULL
+@smtpServer NVARCHAR (MAX) NULL,
+@smtpUsername NVARCHAR (MAX) NULL, 
+@smtpPassword NVARCHAR (MAX) NULL, 
+@from NVARCHAR (MAX) NULL, 
+@to NVARCHAR (MAX) NULL, 
+@subject NVARCHAR (MAX) NULL, 
+@body NVARCHAR (MAX) NULL
 AS EXTERNAL NAME [SendEmailCLR].[SendEmailCLR].[SendEmail]
 ```
  
